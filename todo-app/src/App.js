@@ -1,4 +1,6 @@
 import Todo from "./components/Todo";
+import Modal from "./components/Modal";
+import Backdrop from "./components/Backdrop";
 
 const App = () => {
   return (
@@ -6,7 +8,9 @@ const App = () => {
       <h1>My Todos</h1>
       <Todo title="Learning React" />
       <Todo title="Mastering React" />
-      <Todo title="Being the best I can be." />
+      <Todo title="Explore the full Nextjs + React Course" />
+      <Modal />
+      <Backdrop />
     </div>
   );
 }

@@ -1,5 +1,9 @@
 import React from 'react';
 
+const deleteHandler = () => {
+  
+}
+
 const Todo = ({title}) => {
   return (
   <div className='card'>
