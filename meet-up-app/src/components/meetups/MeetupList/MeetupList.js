@@ -1,6 +1,7 @@
 import React from 'react';
-import MeetupItem from './MeetupItem';
-import classes from './MeetupList.module.css';
+
+import MeetupItem from '../MeetupItem/MeetupItem';
+import classes from './MeetupList.module.css'
 
 const MeetupList = (props) => {
   return (
