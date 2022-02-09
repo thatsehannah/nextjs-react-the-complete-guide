@@ -1,6 +1,8 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
+//URL
+//domain.com/clients/<id>
 const ClientProjects = () => {
   console.log(useRouter().query);
 

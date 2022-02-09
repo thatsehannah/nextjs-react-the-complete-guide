@@ -1,5 +1,7 @@
 import React from 'react';
 
+//URL
+//domain.com/clients
 const Clients = () => {
   return (
     <div>
