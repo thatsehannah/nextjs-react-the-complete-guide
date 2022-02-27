@@ -1,9 +1,9 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { getEventById } from '../../dummy-data';
-import EventSummary from '../../components/event-detail/event-content';
-import EventLogistics from '../../components/event-detail/event-logistics';
-import EventContent from '../../components/event-detail/event-content';
+import EventSummary from '../../components/event-detail/EventContent';
+import EventLogistics from '../../components/event-detail/EventLogistics';
+import EventContent from '../../components/event-detail/EventContent';
 
 const EventDetailPage = () => {
   const router = useRouter();
